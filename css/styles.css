@@ -56,10 +56,11 @@ h1{
     background-position: top;
 }
 
-button:active {
+.pressed{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }
+    opacity: .7;
+}
 
 span{
     text-shadow: 0 0 10px #F87474;

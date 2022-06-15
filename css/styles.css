@@ -1,0 +1,72 @@
+body{
+    background-color: #283149;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 8rem;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.instruments{
+    margin: 50px 0;
+}
+
+.instrument-btn{
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    border-color: #404b69;
+    border-radius: 2rem;
+    border-width:.7rem;
+    border-style: solid;
+}
+
+.tom1{
+    background-image: url("../images/tom1.png");
+    background-position: top;
+}
+.tom2{
+    background-image: url("../images/tom2.png");
+    background-position: top;
+}
+.tom3{
+    background-image: url("../images/tom3.png");
+    background-position: top;
+}
+.tom4{
+    background-image: url("../images/tom4.png");
+    background-position: top;
+}
+.snare{
+    background-image: url("../images/snare.png");
+    background-position: top;
+}
+.crash{
+    background-image: url("../images/crash.png");
+    background-position: top;
+}
+.kick{
+    background-image: url("../images/kick.png");
+    background-position: top;
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+span{
+    text-shadow: 0 0 10px #F87474;
+    color: #2E0249;
+    font-size: 5rem;
+}
+
+p{
+    color: white;
+}

@@ -1,14 +1,7 @@
 var list = document.querySelectorAll(".instrument-btn");
 
 for(var i = 0; i < list.length; i++){   
-    list[i].addEventListener("click", function(){
-        var active = this;
-        active.classList.toggle("pressed");
-        setTimeout(function(){
-            active.classList.toggle("pressed");
-        }, 100);
-        (new Audio(active.classList[2])).play();
-    });
+    list[i].addEventListener("click", function(){playsound(this)});
 }
 
 document.addEventListener("keydown", function(e){
@@ -20,3 +13,11 @@ document.addEventListener("keydown", function(e){
     else if(e.key == 'k') list[5].click();
     else if(e.key == 'l') list[6].click();
 });
+
+function playsound(active){
+    active.classList.toggle("pressed");
+    setTimeout(function(){
+        active.classList.toggle("pressed");
+    }, 100);
+    (new Audio(active.classList[2])).play();
+}
